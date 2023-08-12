@@ -149,7 +149,7 @@ function BecomeMember() {
 			<Heading fontSize='24px'>How it works?</Heading>
 			<UnorderedList>
 				<ListItem>
-					DAOInsure provides insurances to its members based on DAO
+					DecentInsure provides insurances to its members based on DAO
 					voting
 				</ListItem>
 				<ListItem>

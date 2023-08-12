@@ -38,7 +38,7 @@ function Header(props) {
 
 	return (
 		<HStack
-			backgroundColor='white'
+			backgroundColor='black'
 			zIndex='1'
 			position='fixed'
 			width='100vw'
@@ -56,18 +56,18 @@ function Header(props) {
 				</ModalContent>
 			</Modal>
 			<Link to='/'>
-				<Image height='35px' src='../assets/DAOInsure.png' />
+				<Image height='50px' src='../assets/DecentInsure.png' />
 			</Link>
 			<Spacer />
 			<Link to='/profile'>
-				<Button colorScheme='whatsapp'>Profile</Button>
+				<Button >Dashboard</Button>
 			</Link>
 			<Link to='/activity'>
-				<Button colorScheme='whatsapp'>Activity</Button>
+				<Button >More Options</Button>
 			</Link>
 
 			{signerAddress !== "" && signerAddress !== undefined ? (
-				<Button colorScheme='whatsapp' variant='solid'>
+				<Button  variant='solid'>
 					{`${signerAddress.substr(0, 6)}...${signerAddress.substr(
 						-6
 					)}`}
@@ -75,9 +75,8 @@ function Header(props) {
 			) : (
 				<Button
 					onClick={connect}
-					colorScheme='whatsapp'
 					variant='solid'>
-					Connect Wallet
+					Sign in to your Wallet
 				</Button>
 			)}
 		</HStack>

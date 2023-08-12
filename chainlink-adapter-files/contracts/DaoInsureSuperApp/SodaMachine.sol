@@ -22,9 +22,9 @@ interface DAOContractInterface {
     function removeDaoMember(address _memberAddress) external;
 }
 
-/// @title DAOInsure SuperApp
-/// @notice SuperFluid compatible SuperApp for DAOInsure
-contract DAOInsureApp is Simple777Recipient, SuperAppBase {
+/// @title DecentInsure SuperApp
+/// @notice SuperFluid compatible SuperApp for DecentInsure
+contract DecentInsureApp is Simple777Recipient, SuperAppBase {
     ISuperfluid private _host; // host
     IConstantFlowAgreementV1 private _cfa; // the stored constant flow agreement class address
     ISuperToken private _acceptedToken; // accepted token

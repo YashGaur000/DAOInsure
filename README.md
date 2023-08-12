@@ -1,7 +1,7 @@
-<h1 align="center">DAOInsure</h1>
+<h1 align="center">DecentInsure</h1>
 
 <p align="center">
-<a align="center" href="https://github.com/DAOInsure/DAOInsure">
+<a align="center" href="https://github.com/DecentInsure/DecentInsure">
   <img src="./public/assets/github.png" alt="Logo" width="638" height="158">
 </a>
 </p>
@@ -16,32 +16,32 @@
 ## Bounties we have worked on
 <p align="center"><img src="./public/assets/4.png" alt="Logo">
 
-<h3 align="center">DAOInsure aims to solve the problem of transparency with respect to conventional Insurance reimbursements.</h3>
+<h3 align="center">DecentInsure aims to solve the problem of transparency with respect to conventional Insurance reimbursements.</h3>
 
 <p align="center">
     <a href="">View Demo</a>
     ·
-    <a href="https://github.com/DAOInsure/DAOInsure/issues">Report Bug</a>
+    <a href="https://github.com/DecentInsure/DecentInsure/issues">Report Bug</a>
     ·
-    <a href="https://github.com/DAOInsure/DAOInsure/issues">Request Feature</a>
+    <a href="https://github.com/DecentInsure/DecentInsure/issues">Request Feature</a>
   </p>
 
 ##  Features
 
-<p> ✔️ A user needs to start streaming DAIx at 10DAIx/month rate as Insurance Premium to the DAOInsure Treasury to become a member. Members receive streams of $INSURE tokens at the same rate. We provide seamless connection using Metamask and  and a flexible experience with Portis. </p>
+<p> ✔️ A user needs to start streaming DAIx at 10DAIx/month rate as Insurance Premium to the DecentInsure Treasury to become a member. Members receive streams of $INSURE tokens at the same rate. We provide seamless connection using Metamask and  and a flexible experience with Portis. </p>
 <p> ✔️  StakeDAO provides effortless ways to earn yield on the Premium Deposit.</p>
-<p> ✔️  Farmers hit by Floods/Rains, make a claim on DAOInsure.  Claim Data may include media, information about the incident. Data is uploaded to IPFS using (Textile + Fleek + Slate). IPFS cId from the Claim Data is fed to the smart contract which fetches  provable weather Data using Chainlink Oracles that call the  Chainlink External Adapter as a serverless function on GCP hosted on LinkRiver node Services running on Polygon Mumbai Testnet.  In this way, we fetch data 
+<p> ✔️  Farmers hit by Floods/Rains, make a claim on DecentInsure.  Claim Data may include media, information about the incident. Data is uploaded to IPFS using (Textile + Fleek + Slate). IPFS cId from the Claim Data is fed to the smart contract which fetches  provable weather Data using Chainlink Oracles that call the  Chainlink External Adapter as a serverless function on GCP hosted on LinkRiver node Services running on Polygon Mumbai Testnet.  In this way, we fetch data 
 Weather Data on Chain from Open Weather APIs. </p>
-<p> ✔️ The Smart contract thus creates a open proposal, on which DAOInsure members vote YES or NO to delegate the reimbursement to the claimer. </p>
-<p> ✔️ If accpeted the funds are delegated as insurance to the Claimer, and if rejected the claim is simply deleted. Members can view Open and Closed Claims on DAOInsure </p>
+<p> ✔️ The Smart contract thus creates a open proposal, on which DecentInsure members vote YES or NO to delegate the reimbursement to the claimer. </p>
+<p> ✔️ If accpeted the funds are delegated as insurance to the Claimer, and if rejected the claim is simply deleted. Members can view Open and Closed Claims on DecentInsure </p>
 <p> ✔️  We also enable DAO members to interact and exchabge media on the dApp using a Chat Interface built with Textile. In this way, claimers can provide better data to support the credibility of their claim.</p>
-<p> ✔️ We also Index Data on Chain with The Graph + Superfluid Subgraph on Polygon. Check real time analysis on our Dashboard powered by Nivo and The Graph and view insight on Outflows and the associated addresses of the DAOInsure Members. </p>
+<p> ✔️ We also Index Data on Chain with The Graph + Superfluid Subgraph on Polygon. Check real time analysis on our Dashboard powered by Nivo and The Graph and view insight on Outflows and the associated addresses of the DecentInsure Members. </p>
  
  **A lot more to come!**
 
 ## Architecture
 
-### How do users become members on DAOInsure DAO ?
+### How do users become members on DecentInsure DAO ?
 ![Flow of Control](./public/assets/3.png)
 ### How does it all work ?
 ![Flow of Build of Network](./public/assets/1.png)
@@ -53,7 +53,7 @@ We have used the following technologies for this project:
 * [Chainlink](https://chain.link/) (For getting provable weather data on Chain using Chainlink External Adapters)
 * [Filecoin](https://filecoin.io/) (Infura IPFS Node, along with Textile and Slate for uploading files to the IPFS, decentralised chat, all built on Filecoin)
 * [Infura](https://infura.io/) (APIs to Connect to the blockchain and free IPFS node)
-* [IPFS](https://ipfs.io/) (IPFS storing media related to DAOInsure Claims and Chats among the members of the DAO)
+* [IPFS](https://ipfs.io/) (IPFS storing media related to DecentInsure Claims and Chats among the members of the DAO)
 * [Superfluid](https://www.superfluid.finance/) (Superfluid is used to stream Premium to the DAO Treasury, in return of DAO Tokens streamed back to the DAO Members.)
 * [Polygon](https://polygon.technology) (Polygon is a Layer-2 scaling solution built on top of Ethereum to solve for low throughput and high transaction costs. We have deployed our smart contracts to the Polygon Mumbai testnet to leverage the low transaction costs and low block time.)
 * [Metamask](https://metamask.io) (Wallet Provider)
@@ -70,7 +70,7 @@ We have used the following technologies for this project:
 
 ### Clone the repo:
 
-`git clone https://github.com/DAOInsure/DAOInsure.git && cd DAOInsure`
+`git clone https://github.com/DecentInsure/DecentInsure.git && cd DecentInsure`
 
 ### Run the Project
 

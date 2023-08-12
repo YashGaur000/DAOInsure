@@ -14,7 +14,7 @@ ReactDOM.render(
     <Web3ContextProvider>
       <AppContextProvider>
         <ChakraProvider theme={theme}>
-          <Box backgroundColor="whiteAlpha">
+          <Box >
             <App />
           </Box>
         </ChakraProvider>

@@ -138,7 +138,7 @@ export const DAO_CONTRACT_ABI = [
   {
     constant: true,
     inputs: [],
-    name: "daoInsureTokenAddress",
+    name: "DecentInsureTokenAddress",
     outputs: [
       {
         name: "",

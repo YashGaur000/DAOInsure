@@ -11,7 +11,7 @@ interface ISendClaimAmount {
 
 contract Governance {
     // 🚨 Address of ISuperToken needs to be initialised after contract deployment
-    address public daoInsureTokenAddress;
+    address public DecentInsureTokenAddress;
     address public superAppContractAddress;
 
     uint256 public proposalIdNumber;
@@ -44,7 +44,7 @@ contract Governance {
 
     modifier daoMember() {
         require(
-            countVotes(daoInsureTokenAddress, msg.sender) > 0,
+            countVotes(DecentInsureTokenAddress, msg.sender) > 0,
             "You are not a DAO member"
         );
         _;
@@ -77,7 +77,7 @@ contract Governance {
         proposalsMapping[proposalIdNumber] = Proposal({
             proposalId: proposalIdNumber,
             userAddress: msg.sender,
-            claimAmount: (countVotes(daoInsureTokenAddress, msg.sender)),
+            claimAmount: (countVotes(DecentInsureTokenAddress, msg.sender)),
             proposalString: _proposalString,
             yesVotes: 0,
             noVotes: 0,
@@ -145,7 +145,7 @@ contract Governance {
         public
         onlyAdmin
     {
-        daoInsureTokenAddress = _tokenAddress;
+        DecentInsureTokenAddress = _tokenAddress;
         superAppContractAddress = _superApp;
     }
 
