@@ -1,5 +1,3 @@
-### Clone the repo from
-
 ### Run the Project
 
 
