@@ -145,7 +145,7 @@ function BecomeMember() {
 					</ModalFooter>
 				</ModalContent>
 			</Modal>
-			<Heading fontSize='32px'>Become A Member</Heading>
+			<Heading fontSize='32px'>Be insure with DecentInsure</Heading>
 			<Heading fontSize='24px'>How it works?</Heading>
 			<UnorderedList>
 				<ListItem>
